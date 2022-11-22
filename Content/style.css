@@ -1,0 +1,20 @@
+﻿/*---------------------------------------------------*/
+.img:hover {
+    animation-name: phongto;
+    animation : phongto 2s forwards;
+     /*transform: translateY(-3.5rem);*/
+
+}
+
+@-webkit-keyframes phongto {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+        box-shadow: 5px 10px #808080  ;
+    }
+}
+
+    
